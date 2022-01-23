@@ -1,0 +1,90 @@
+* 
+    {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+    }
+
+        /* colors */
+:root 
+    {
+      --btn:#0a8cf7c9;
+      --dark:#161616;
+      --footer:#2D333F;
+      --secondary:#232B38;
+      --ternary:#6C6C6C;
+      --danger:#FE4545;
+      --pure:#FEFEFE;
+      --light:#F0F0F0;
+       --blue:rgb(8, 8, 189);
+       --bluee:rgb(4, 4, 121);    
+      --branjal:rgb(113, 4, 146);
+      --primary:rgb(92, 2, 177,0.7);
+      --yellow:rgb(204, 167, 1);
+    }
+         
+body 
+    {
+      --webkit-font-smoothing:antialiased;
+      font-family: 'Poppins', sans-serif;
+    }
+         
+.flex
+    {
+      display: flex;
+    }
+.flex-column
+    {
+        flex-direction: column;
+    }
+.justify-between
+    {
+      justify-content: space-between;
+    }
+.justify-around
+    {
+        justify-content: space-around;
+    }
+.justify-center 
+    {
+      justify-content: center;
+    } 
+.align-center
+{
+      align-items: center;
+}
+.align-end
+{
+      align-items: flex-end;
+}
+.align-start
+{
+      align-items:flex-start;
+}
+
+.container
+    {
+         width:100%;
+         padding:0 6vw;
+         margin:0 auto;
+    }
+
+.container1
+    {
+        width:100%;
+        padding:0 2vw;
+        margin:0 auto;
+    }
+
+.link a
+    {
+        text-decoration: none;
+    }
+.btn 
+    {
+        height: 30px;
+        width: 90px;
+        font-size:0.9rem;
+        text-align: center;
+        cursor: pointer;
+    }
